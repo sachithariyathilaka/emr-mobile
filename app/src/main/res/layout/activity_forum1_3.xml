@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forum1"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="10. What procrastination issues might adult ADHD cause?"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Answer: Just as children with ADHD often put off doing homework, adults with ADHD often drag their feet when starting tasks that require a lot of attention. This procrastination often adds to existing problems, including marital disagreements, workplace issues, and problems with friends."
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="11. Do adults with ADHD struggle with and react to things similarly?"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Answer: No two people with ADHD are exactly alike. If you have ADHD, you may be able to concentrate if you're interested in or excited about what you're doing. But some people with ADHD have trouble focusing under any circumstances. Some people look for stimulation, but others avoid it. Plus, some people with ADHD can be withdrawn and antisocial. Others can be very social and go from one relationship to the next."
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="12. How is adult ADHD treated?"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Answer: If your doctor says you have ADHD, you'll work together to make a treatment plan just for you. Treatment plans can include medicine, therapy, education or learning more about ADHD, and getting family support. Together, these things can help you find new ways to do things that can make day-to-day life easier. That can make you feel better in general and feel better about yourself."
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="159dp"
+        android:text="Load More..."
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

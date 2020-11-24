@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prescription Id: 79"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="90dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/decease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Decease: Fever"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2019-07-08 01.44"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="50dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/report"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report: FBC"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/drug1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug: a"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="180dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/quantity1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity: 10"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/drug2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug: a"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="180dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/qnt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity: 10"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/drug3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug: a"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="180dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/qnt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity: 10"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/drug4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug: a"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="180dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/qnt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity: 10"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/drug5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug: a"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_marginRight="180dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/qnt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity: 10"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
