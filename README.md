@@ -1,2 +1,6 @@
 # EMR Mobile App
-Android App Related to EMR Web App - This app can use by doctors & patients 
+Android Application related to EMR Web App - This app can use by doctors & patients 
+
+# Technologies
+
+Android Studio, Java, MYSQL, PHP
