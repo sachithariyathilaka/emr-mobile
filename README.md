@@ -3,4 +3,4 @@ Android Application related to EMR Web App - This app can use by doctors & patie
 
 # Technologies
 
-Android Studio, Java, MYSQL, PHP
+Android Studio, Java
