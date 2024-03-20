@@ -2,8 +2,9 @@
 Android Application related to EMR Web App. This app can use by doctors and patients. 
 
 * ### Technologies
+  * Java Development
   * Java
-  * Android
+  * Gradle
   
 * ### Release Note
   * Release: 1.0.0
