@@ -11,4 +11,4 @@ Android Application related to EMR Web App. This app can use by doctors and pati
   * Date: 2022/06/03
   * Module: Project
   * Changes
-   * EMR mobile application developed.
+    * EMR mobile application developed.
