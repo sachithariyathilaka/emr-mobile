@@ -1,4 +1,4 @@
-# Electronic Medical Record Mobile
+# EMR Mobile
 Android Application related to EMR Web App. This app can use by doctors and patients. 
 
 * ### Technologies
@@ -9,6 +9,6 @@ Android Application related to EMR Web App. This app can use by doctors and pati
 * ### Release Note
   * Release: 1.0.0
   * Date: 2022/06/03
-  * Module: Project
+  * Module: EMR Mobile
   * Changes
     * EMR mobile application developed.
